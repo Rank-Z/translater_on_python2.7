@@ -44,7 +44,7 @@ class Scraper(HTMLParser):
 
 def main():
     app=wx.App()
-    win=wx.Frame(None,title="emmm",size=(300,75))
+    win=wx.Frame(None,title="Translater",size=(300,75))
 
     word=wx.TextCtrl(win,pos=(0,0),size=(300,25))
     result=wx.TextCtrl(win,pos=(0,25),size=(300,400),style=wx.TE_MULTILINE|wx.TE_READONLY|wx.TE_NO_VSCROLL)
