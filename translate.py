@@ -35,13 +35,8 @@ class Scraper(HTMLParser):
         if tag=='li':
             self.in_li=False
 
-    def clear(self):
-        self.in_ul = False
-        self.in_li = False
-        self.first = True
-        self.txt1 = ''
 
-
+            
 def main():
     app=wx.App()
     win=wx.Frame(None,title="Translater",size=(300,75))
