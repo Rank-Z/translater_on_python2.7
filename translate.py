@@ -4,6 +4,8 @@ from HTMLParser import HTMLParser
 import wx
 
 class Scraper(HTMLParser):
+    
+    
     def __init__(self):
         self.in_ul=False
         self.in_li=False
