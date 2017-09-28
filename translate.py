@@ -48,7 +48,7 @@ def main():
 
 
     def change_size(event):
-        if word.GetValue()== '':
+        if word.GetValue()== ''or ' 'in word.GetValue():
             result.SetValue('')
             win.SetSize((300,75))
         else:
@@ -65,4 +65,4 @@ def main():
 
 
 if __name__=='__main__':main()
-#no pythonic
+#not pythonic yet
